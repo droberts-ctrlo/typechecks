@@ -1,23 +1,26 @@
 {
   "name": "@ctrlo/typechecks",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",
-  "type": "module",
   "devDependencies": {
     "@babel/core": "^7.28.5",
     "@babel/preset-env": "^7.28.5",
     "@babel/preset-typescript": "^7.28.5",
+    "@eslint/js": "^9.39.2",
+    "@stylistic/eslint-plugin": "^5.7.0",
     "@types/jquery": "^3.5.33",
-    "@types/node": "24.1.0",
+    "@types/node": "^24.1.0",
+    "eslint": "^9.39.2",
+    "globals": "^17.0.0",
     "jest": "^30.2.0",
     "jest-environment-jsdom": "^30.2.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.52.0"
   },
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "prepare": "yarn build",
     "clean": "rm -rf dist"
   },
   "dependencies": {}
