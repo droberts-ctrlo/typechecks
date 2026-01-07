@@ -1,0 +1,24 @@
+{
+  "name": "typechecks",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@babel/preset-typescript": "^7.28.5",
+    "@types/jquery": "^3.5.33",
+    "@types/node": "24.1.0",
+    "jest": "^30.2.0",
+    "jest-environment-jsdom": "^30.2.0",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "yarn build",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {}
+}
