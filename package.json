@@ -1,6 +1,6 @@
 {
   "name": "@ctrlo/typechecks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "license": "MIT",
   "devDependencies": {
@@ -21,7 +21,8 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "prepare": "yarn build --sourceMap false"
   },
   "dependencies": {}
 }
