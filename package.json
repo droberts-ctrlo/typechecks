@@ -1,6 +1,6 @@
 {
-  "name": "typechecks",
-  "version": "1.0.0",
+  "name": "@ctrlo/typechecks",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "license": "MIT",
   "type": "module",
