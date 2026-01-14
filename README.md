@@ -1,4 +1,4 @@
-# Typechecks - v1.0.3
+# Typechecks - v1.0.4
 
 [![Node.js CI](https://github.com/droberts-ctrlo/typechecks/actions/workflows/node.js.yml/badge.svg)](https://github.com/droberts-ctrlo/typechecks/actions/workflows/node.js.yml)
 
